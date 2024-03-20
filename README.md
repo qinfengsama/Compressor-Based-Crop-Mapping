@@ -31,9 +31,15 @@ python 0227_tsc_gzip.py \
 ### Deep learning models
 We also provide our pretrained models for inference in [xxx](xxx)
 #### TempCNN, LSTM and InceptionTime
-**_Train_**
+~~~
+cd model/TempCNN_LSTM_InceptionTime/
 
-**_Test_**
+python tempcnn.py \
+--areas t30uxv \
+--train_num 0.5 \
+--period 43 \
+--model "Choose the model from TempCNN, LSTM, or InceptionTime."
+~~~
 
 ## Acknowledgement
 The deep learning models implementations from this repository are based on the following github repositories.
