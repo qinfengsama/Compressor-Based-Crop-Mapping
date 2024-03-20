@@ -1,10 +1,12 @@
 # Compressor-Based-Crop-Mapping
 ## dataset
-Due to the dataset being too large, you can download the data we use from the following links of baiduyun:
+Since the dataset is too large, you can download the data we use from the following links of baiduyun:
 
 https://pan.baidu.com/s/1zYGEa1OOLbVkexjC1FAwSQ?pwd=4dbe (access code: 4dbe)
 
 ## Usage
+### Dependencies
+
 ### ours
 As an example, use the following command to run our method on the T30UXV parcel.
 ~~~
