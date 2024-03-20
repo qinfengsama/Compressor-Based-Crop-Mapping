@@ -1,4 +1,7 @@
 # Compressor-Based-Crop-Mapping
+## Introduction
+The accuracy of crop mapping, based on multi-spectral temporal data has been significantly improved through the use of deep learning. However, traditional deep learning can be computationally intensive, requiring large amounts of data and millions of parameters, which can make it `expensive' to utilize and optimize. Inspired by research on natural language processing, we consider a pixel in satellite images as a 'spectral-temporal' text. Specifically, the proposed symbol representation algorithm is used to convert the band reflectance of all pixels into symbol representations. Then, the Normalized Compression Distance (NCD) between the time series of any two pixels in the same band and the NCD between the spectral sequences at the same timestamp are calculated to obtain the average NCD between any two pixels. Finally, based on it, classification is implemented using simple k-nearest-neighbor classifier (kNN).  Without any trainable parameters, our method achieves results that are competitive with deep learning methods across four sub-scenes of the PASTIS dataset. It even outperforms the average of nine advanced deep learning methods.  Our method also excels in the few-shot setting, where labeled data are too scarce to train neural network effectively. Further experiments also validate the effectiveness of it for early-season classification.
+
 ## Dataset
 The original dataset originates from [pastis-benchmark](https://github.com/VSainteuf/pastis-benchmark)
 
