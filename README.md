@@ -4,5 +4,20 @@ Due to the dataset being too large, you can download the data we use from the fo
 
 https://pan.baidu.com/s/1zYGEa1OOLbVkexjC1FAwSQ?pwd=4dbe (access code: 4dbe)
 
-## Ours
-Go to the folder 
+## Usage
+### ours
+~~~
+cd utils/src
+python 0227_tsc_gzip.py \
+--dataset 'pastis' \
+--area 't30uxv' \
+--period '43' \
+--compressor 'gzip' \
+--concat_mode 'bp_pb' \
+--code 'char' \
+--alphabet_len '51' \
+--mapping 'equal_interval' \
+--str_code 'normal' \
+--train_num '0.5' \
+--k '2'
+~~~
