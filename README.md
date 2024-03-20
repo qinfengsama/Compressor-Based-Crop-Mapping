@@ -5,7 +5,7 @@ If you re-use this work, please cite:
 ## Dataset
 The original dataset originates from [pastis-benchmark](https://github.com/VSainteuf/pastis-benchmark)
 
-Since the dataset is too large, you can download the data we use from the following links of baiduyun [Baidu Netdisk](https://pan.baidu.com/s/1zYGEa1OOLbVkexjC1FAwSQ?pwd=4dbe) (access code: 4dbe)
+Since the dataset is too large, you can download the data we use from the following links of baiduyun [Dataset](https://pan.baidu.com/s/1zYGEa1OOLbVkexjC1FAwSQ?pwd=4dbe) (access code: 4dbe)
 
 ## Usage
 ### Dependencies
@@ -36,7 +36,7 @@ python 0227_tsc_gzip.py \
 ~~~
 
 ### Deep learning models
-We also provide our pretrained models for inference in [Baidu Netdisk](https://pan.baidu.com/s/1SB0ylQDYVwCKVWQt19qeaA) (access code: v1uv)
+We also provide our pretrained models for inference in [Pretrained_Models](https://pan.baidu.com/s/1SB0ylQDYVwCKVWQt19qeaA) (access code: v1uv)
 #### TempCNN, LSTM and InceptionTime
 ~~~
 cd model/TempCNN_LSTM_InceptionTime/
