@@ -36,7 +36,7 @@ python 0227_tsc_gzip.py \
 ~~~
 
 ### Deep learning models
-We also provide our pre-trained models to reproduce the experimental results in [Pretrained_Models](https://pan.baidu.com/s/1SB0ylQDYVwCKVWQt19qeaA) (access code: v1uv)
+:triangular_flag_on_post: We also provide our pre-trained models to reproduce the experimental results in [Pretrained_Models](https://pan.baidu.com/s/1SB0ylQDYVwCKVWQt19qeaA) (access code: v1uv)
 #### TempCNN, LSTM and InceptionTime
 ~~~
 cd model/TempCNN_LSTM_InceptionTime/
