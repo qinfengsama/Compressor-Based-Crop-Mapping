@@ -54,10 +54,10 @@ cd model/Time-series-lib/
 
 python train.py \
 --foldname "/path/to/dataset" \
---train_ratio 0.5 0.2 \
---periods 1 2 \
---patch_names t30uxv t32ulu \
---data_paths CropMapping_t30uxv CropMapping_t31tfj \
+--train_ratio 0.5 0.2 0.1 0.05 0.02 0.01 \
+--periods 1 2 3 4 \
+--patch_names t30uxv t31tfj t31tfm t32ulu \
+--data_paths CropMapping_t30uxv CropMapping_t31tfj CropMapping_t31tfm CropMapping_t32ulu \
 --models TimesNet LightTS "Choose the model from TimesNet LightTS DLinear Transformer Informer iTransformer."
 ~~~
 
