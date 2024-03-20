@@ -10,11 +10,11 @@ Since the dataset is too large, you can download the data we use from the follow
 ## Usage
 ### Dependencies
 ~~~
-einops==0.4.0
-patool==1.12
-reformer-pytorch==1.4.4
-sktime==0.16.1
-sympy==1.11.1
+pip install einops==0.4.0
+pip install patool==1.12
+pip install reformer-pytorch==1.4.4
+pip install sktime==0.16.1
+pip install sympy==1.11.1
 ~~~
 ### Ours
 As an example, use the following command to run our method on the T30UXV parcel.
