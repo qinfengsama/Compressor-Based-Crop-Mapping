@@ -52,6 +52,7 @@ python tempcnn.py \
 As an example, use the following command to run these methods for all experients.
 ~~~
 cd model/Time-series-lib/Time-series-lib
+
 python train.py \
 --foldname "/path/to/dataset" \
 --train_ratio 0.5 0.2 \
