@@ -51,7 +51,14 @@ python tempcnn.py \
 #### TimesNet, LightTS, DLinear, iTransformer, Informer, Transformer
 As an example, use the following command to run these methods for all experients.
 ~~~
-
+cd model/Time-series-lib/Time-series-lib
+python train.py \
+--foldname "/path/to/dataset" \
+--train_ratio 0.5 0.2 \
+--periods 1 2 \
+--patch_names "t30uxv" "t32ulu" \
+--data_paths "CropMapping_t30uxv" "CropMapping_t31tfj" \
+--models "TimesNet" "LightTS"
 ~~~
 
 #### DCM
