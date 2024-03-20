@@ -29,6 +29,11 @@ python 0227_tsc_gzip.py \
 ~~~
 
 ### Deep learning models
+We also provide our pretrained models for inference in [xxx](xxx)
+#### TempCNN, LSTM and InceptionTime
+**_Train_**
+
+**_Test_**
 
 ## Acknowledgement
 The deep learning models implementations from this repository are based on the following github repositories.
