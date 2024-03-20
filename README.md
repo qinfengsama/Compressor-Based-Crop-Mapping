@@ -5,9 +5,7 @@ If you re-use this work, please cite:
 ## Dataset
 The original dataset originates from [pastis-benchmark](https://github.com/VSainteuf/pastis-benchmark)
 
-Since the dataset is too large, you can download the data we use from the following links of baiduyun:
-
-https://pan.baidu.com/s/1zYGEa1OOLbVkexjC1FAwSQ?pwd=4dbe (access code: 4dbe)
+Since the dataset is too large, you can download the data we use from the following links of baiduyun [Baidu Netdisk](https://pan.baidu.com/s/1zYGEa1OOLbVkexjC1FAwSQ?pwd=4dbe) (access code: 4dbe)
 
 ## Usage
 ### Dependencies
@@ -50,7 +48,7 @@ python tempcnn.py \
 --model "Choose the model from TempCNN, LSTM, or InceptionTime."
 ~~~
 
-### TimesNet, LightTS, DLinear, iTransformer, Informer, Transformer
+#### TimesNet, LightTS, DLinear, iTransformer, Informer, Transformer
 As an example, use the following command to run these methods for all experients.
 ~~~
 models = ['TimesNet', 'LightTS', 'DLinear', 'iTransformer', 'Informer', 'Transformer']
@@ -79,7 +77,7 @@ command = [
   ]
 ~~~
 
-### DCM
+#### DCM
 As an example, use the following command to run DCM method for all experients.
 ~~~
 datasets = ['t30uxv', 't31tfj', 't31tfm', 't32ulu']
