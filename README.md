@@ -51,38 +51,21 @@ python tempcnn.py \
 #### TimesNet, LightTS, DLinear, iTransformer, Informer, Transformer
 As an example, use the following command to run these methods for all experients.
 ~~~
-models = ['TimesNet', 'LightTS', 'DLinear', 'iTransformer', 'Informer', 'Transformer']
-trainNums = [0.5, 0.2, 0.1, 0.05, 0.02, 0.01]
-data_paths = ["CropMapping_t30uxv", "CropMapping_t31tfj", "CropMapping_t31tfm", "CropMapping_t32ulu"]
-periods = [1, 2, 3, 4]
-command = [
-  'python', '-u', '/home/aistudio/work/Time-Series-Library-main/run.py',
-  '--task_name', 'classification',
-  '--is_training', '1',
-  '--root_path', '/home/aistudio/work/Time-Series-Library-main/dataset/'+data_path+'/',
-  '--model_id', data_path+'_'+str(period)+'in4Period_'+str(trainNum)+'train',
-  '--model', model,
-  '--data', 'UEA',
-  '--e_layers', '3',
-  '--batch_size', '32',
-  '--d_model', '128',
-  '--d_ff', '256',
-  '--top_k', '3',
-  '--des', 'Exp',
-  '--itr', '1',
-  '--learning_rate', '0.001',
-  '--train_epochs', '200',
-  '--patience', '10',  
-  '--enc_in',  '3'
-  ]
+
 ~~~
 
 #### DCM
 As an example, use the following command to run DCM method for all experients.
 ~~~
-datasets = ['t30uxv', 't31tfj', 't31tfm', 't32ulu']
-train_ratios = [0.5, 0.2, 0.1, 0.05, 0.02, 0.01]
-periods = [1, 2, 3, 4]
+cd model/DCM
+
+python DCM.py \
+--select_gt_path "/path/to/select_gt.npy" \
+--select_rs_path "/path/to/select_rs.npy" \
+--train_ratio 0.05 \
+--epochs 200 --batch_size 32 \
+--learning_rate 0.001 \
+--save_path "/path/to/save/model"
 ~~~
 
 
