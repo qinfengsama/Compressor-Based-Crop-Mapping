@@ -1,5 +1,6 @@
 # A Pixel Can Be Compressed as a Spectral-Temporal Text
 ## Citation
+If you re-use this work, please cite:
 
 ## Dataset
 The original dataset originates from [pastis-benchmark](https://github.com/VSainteuf/pastis-benchmark)
