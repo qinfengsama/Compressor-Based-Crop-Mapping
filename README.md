@@ -63,7 +63,8 @@ python DCM.py \
 --select_gt_path "/path/to/select_gt.npy" \
 --select_rs_path "/path/to/select_rs.npy" \
 --train_ratio 0.05 \
---epochs 200 --batch_size 32 \
+--epochs 200 \
+--batch_size 32 \
 --learning_rate 0.001 \
 --save_path "/path/to/save/model"
 ~~~
