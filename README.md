@@ -3,8 +3,6 @@
 If you re-use this work, please cite:
 
 ## Dataset
-The original dataset originates from [pastis-benchmark](https://github.com/VSainteuf/pastis-benchmark)
-
 Since the dataset is too large, you can download the data we use from the following links of baiduyun [Dataset](https://pan.baidu.com/s/1zYGEa1OOLbVkexjC1FAwSQ?pwd=4dbe) (access code: 4dbe)
 
 ## Usage
@@ -75,9 +73,20 @@ python DCM.py \
 --save_path "/path/to/save/model"
 ~~~
 
+## Contact
+If you have any questions or suggestions, feel free to contact:
+
+feifanzhang@cau.edu.cn
+
+Or describe it in Issues.
+
 
 ## Acknowledgement
-The deep learning models implementations from this repository are based on the following github repositories.
+
+All the experiment datasets are public, and we obtain them from the following links:
+- [pastis-benchmark](https://github.com/VSainteuf/pastis-benchmark)
+
+The deep learning models implementations from this repository are based on the following github repositories:
 - TempCNN, LSTM and InceptionTime from [BreizhCrops](https://github.com/dl4sits/BreizhCrops)
 - TimesNet, LightTS, DLinear, iTransformer, Informer, Transformer from [Time-Series-Library](https://github.com/thuml/Time-Series-Library)
 - DCM from [DeepCropMapping](https://github.com/Lab-IDEAS/DeepCropMapping)
