@@ -20,20 +20,20 @@ import math
 
 parser = argparse.ArgumentParser("TSC")
 parser.add_argument("--dataset", type=str, default="pastis")
-parser.add_argument("--area", type=str, default="t30uxv_1")
-parser.add_argument("--period", type=int, default=1)
+parser.add_argument("--area", type=str, default="t30uxv")
+parser.add_argument("--period", type=int, default=43)
 parser.add_argument("--compressor", type=str, default="gzip", choices=["gzip", "bz2", "zstandard", "lzma"])
 
 # bp: band*period, pb: period*band, bp_pb: band*period + period*band, pb_bp: period*band + band*period
 parser.add_argument("--concat_mode", type=str, default="bp_pb", choices=["bp", "pb", "bp_pb", "pb_bp"])
 
 parser.add_argument("--code", type=str, default="char", choices=["num", "char"])
-parser.add_argument("--alphabet_len", type=int, default=10)
+parser.add_argument("--alphabet_len", type=int, default=51)
 parser.add_argument("--mapping", type=str, default="equal_interval", choices=["equal_interval", "equal_quantile"])
 parser.add_argument("--str_code", type=str, default="normal", choices=["gray", "normal"])
 parser.add_argument("--train_num", type=float, default=0.5)
 parser.add_argument("--single_ncd", action='store_true')
-parser.add_argument("--k", type=int, default=4)
+parser.add_argument("--k", type=int, default=2)
 
 
 args = parser.parse_args()
@@ -255,6 +255,7 @@ def calculate_metrics(result):
 
 
 def getTrainTest(label, trainNum):
+    # 设置随机种子
     random.seed(32)
     testGt = copy.deepcopy(label)
     trainGt = np.zeros(label.shape)
