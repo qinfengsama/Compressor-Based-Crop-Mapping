@@ -7,7 +7,7 @@ https://pan.baidu.com/s/1zYGEa1OOLbVkexjC1FAwSQ?pwd=4dbe (access code: 4dbe)
 ## Usage
 ### Dependencies
 
-### ours
+### Ours
 As an example, use the following command to run our method on the T30UXV parcel.
 ~~~
 cd model/ours/
