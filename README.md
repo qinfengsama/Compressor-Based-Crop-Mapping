@@ -6,18 +6,20 @@ https://pan.baidu.com/s/1zYGEa1OOLbVkexjC1FAwSQ?pwd=4dbe (access code: 4dbe)
 
 ## Usage
 ### ours
+As an example, use the following command to run our method on the T30UXV parcel.
 ~~~
-cd utils/src
+cd model/ours/
+
 python 0227_tsc_gzip.py \
---dataset 'pastis' \
---area 't30uxv' \
---period '43' \
---compressor 'gzip' \
---concat_mode 'bp_pb' \
---code 'char' \
---alphabet_len '51' \
---mapping 'equal_interval' \
---str_code 'normal' \
---train_num '0.5' \
---k '2'
+--dataset pastis \
+--area t30uxv \
+--period 43 \
+--compressor gzip \
+--concat_mode bp_pb \
+--code char \
+--alphabet_len 51 \
+--mapping equal_interval \
+--str_code normal \
+--train_num 0.5 \
+--k 2
 ~~~
