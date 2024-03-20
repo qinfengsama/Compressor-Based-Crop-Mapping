@@ -57,7 +57,7 @@ As an example, use the following command to run these methods for all experients
 #### DCM
 As an example, use the following command to run DCM method for all experients.
 ~~~
-cd model/DCM
+cd model/DCM/
 
 python DCM.py \
 --select_gt_path "/path/to/select_gt.npy" \
