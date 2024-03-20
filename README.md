@@ -25,3 +25,7 @@ python 0227_tsc_gzip.py \
 --train_num 0.5 \
 --k 2
 ~~~
+
+## Acknowledgement
+We borrowed the code of deep learning models used in the comparative experiment from [BreizhCrops](https://github.com/dl4sits/BreizhCrops), 
+
