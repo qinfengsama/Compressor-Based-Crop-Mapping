@@ -25,8 +25,10 @@ python 0227_tsc_gzip.py \
 --mapping equal_interval \
 --str_code normal \
 --train_num 0.5 \
---k 2
+--k 8
 ~~~
+
+### Deep learning models
 
 ## Acknowledgement
 The deep learning models implementations from this repository are based on the following github repositories.
