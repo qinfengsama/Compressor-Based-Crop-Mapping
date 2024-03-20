@@ -28,5 +28,5 @@ python 0227_tsc_gzip.py \
 
 ## Acknowledgement
 The deep learning models implementations from this repository are based on the following github repositories.
-- TempCNN, LSTM and InceptionTime [BreizhCrops](https://github.com/dl4sits/BreizhCrops)
+- TempCNN, LSTM and InceptionTime from [BreizhCrops](https://github.com/dl4sits/BreizhCrops)
 
