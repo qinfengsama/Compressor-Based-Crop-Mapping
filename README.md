@@ -49,7 +49,6 @@ python tempcnn.py \
 ~~~
 
 #### TimesNet, LightTS, DLinear, iTransformer, Informer and Transformer
-As an example, use the following command to run these methods for all experients.
 ~~~
 cd model/Time-series-lib/
 
@@ -63,7 +62,6 @@ python train.py \
 ~~~
 
 #### DCM
-As an example, use the following command to run DCM method for all experients.
 ~~~
 cd model/DCM/
 
