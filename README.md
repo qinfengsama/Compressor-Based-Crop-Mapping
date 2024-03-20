@@ -58,7 +58,7 @@ python train.py \
 --periods 1 2 3 4 \
 --patch_names t30uxv t31tfj t31tfm t32ulu \
 --data_paths CropMapping_t30uxv CropMapping_t31tfj CropMapping_t31tfm CropMapping_t32ulu \
---models TimesNet LightTS "Choose the model from TimesNet LightTS DLinear Transformer Informer iTransformer."
+--models "Choose the model from TimesNet LightTS DLinear Transformer Informer iTransformer."
 ~~~
 
 #### DCM
