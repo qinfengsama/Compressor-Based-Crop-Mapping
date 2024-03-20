@@ -48,7 +48,7 @@ python tempcnn.py \
 --model "Choose the model from TempCNN, LSTM, or InceptionTime."
 ~~~
 
-#### TimesNet, LightTS, DLinear, iTransformer, Informer, Transformer
+#### TimesNet, LightTS, DLinear, iTransformer, Informer and Transformer
 As an example, use the following command to run these methods for all experients.
 ~~~
 cd model/Time-series-lib/
