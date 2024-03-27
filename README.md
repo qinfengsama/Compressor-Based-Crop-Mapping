@@ -1,4 +1,4 @@
-# A Pixel Can Be Compressed as a Spectral-Temporal Text
+# Enhancing Multispectral Temporal Crop Classification with a Non-Trainable Parameters Approach via Lossless Compressors
 ## Citation
 If you re-use this work, please cite:
 
