@@ -49,8 +49,10 @@ class Pastis(Dataset):
         return len(self.x)
 
     def __getitem__(self, index):
+        
         x = torch.from_numpy(self.x[index]).type(torch.FloatTensor)
         y = torch.tensor(int(self.y[index]), dtype=torch.long)
+        
         return x, y, self.indices[index]
 
 
@@ -70,7 +72,7 @@ def get_model(modelname, ndims, num_classes, sequencelength, device, **hyperpara
                         device=device,
                         **hyperparameter).to(device)
     elif modelname == "inceptiontime":
-        model = InceptionTime(input_dim=ndims, num_classes=num_classes, device=device,
+        model = InceptionTime(input_dim=ndims, num_classes=num_classes,
                               **hyperparameter).to(device)
     elif modelname == "msresnet":
         model = MSResNet(input_dim=ndims, num_classes=num_classes, **hyperparameter).to(device)
@@ -211,7 +213,9 @@ def train_epoch(model, optimizer, criterion, dataloader, device):
         for idx, batch in iterator:
             optimizer.zero_grad()
             x, y_true, _ = batch
-            loss = criterion(model.forward(x.to(device)), y_true.to(device))
+            x, y_true = x.to(device), y_true.to(device)
+            y_pred = model.forward(x)
+            loss = criterion(y_pred, y_true)
             loss.backward()
             optimizer.step()
             iterator.set_description(f"train loss={loss:.2f}")
