@@ -1,4 +1,4 @@
-# Enhancing Multispectral Temporal Crop Classification with a Non-Trainable Parameters Approach via Lossless Compressors
+# Low Resource Multi-spectral Temporal Crop Mapping with Compressors
 ## Citation
 If you re-use this work, please cite:
 
