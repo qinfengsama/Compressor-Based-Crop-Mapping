@@ -30,7 +30,7 @@ cd model/TempCNN_LSTM_InceptionTime/
 
 python tempcnn.py \
 --areas t30uxv \
---train_num 0.5 \
+--train_num 0.2 \
 --period 43 \
 --model "Choose the model from TempCNN, LSTM, or InceptionTime."
 ~~~
