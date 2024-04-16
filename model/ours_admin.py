@@ -1,6 +1,6 @@
 import subprocess
 
-scripts = '0412_jstars.py'
+scripts = 'ours.py'
 
 areas = ["t30uxv", "t31tfj", "t31tfm", "t32ulu"]
 periods = ['43', '61', '46', '38']
