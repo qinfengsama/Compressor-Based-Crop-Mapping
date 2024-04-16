@@ -15,22 +15,11 @@ pip install sktime==0.16.1
 pip install sympy==1.11.1
 ~~~
 ### Ours
-As an example, use the following command to run our method on the T30UXV parcel.
+As an example, use the following command to run our method on four parcel.
 ~~~
-cd model/ours/
+cd model/
 
-python 0227_tsc_gzip.py \
---dataset pastis \
---area t30uxv \
---period 43 \
---compressor gzip \
---concat_mode bp_pb \
---code char \
---alphabet_len 51 \
---mapping equal_interval \
---str_code normal \
---train_num 0.5 \
---k 8
+python ours_admin.py
 ~~~
 
 ### Deep learning models
