@@ -1,4 +1,4 @@
-# Low Resource Multi-spectral Temporal Crop Mapping with Compressors
+# low-resource crop classification from multi-spectral time series using lossless compressors
 ## Citation
 If you re-use this work, please cite:
 
