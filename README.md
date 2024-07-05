@@ -4,7 +4,7 @@
 Since the dataset is too large, you can download the data we use from the following links of google drive:
 [Dataset](https://drive.google.com/drive/folders/1eMuwGf54EcDpi8Ed8mXVb0F9FnbxH5up?usp=sharing)
 
-Once you have downloaded the data in `rs.npy` format and the ground truth in `gt.npy`, please place them in the `icpr/dataset_name/` path.
+Once you have downloaded the data in `rs.npy` format and the ground truth in `gt.npy`, please place them in the `dataset_name/` path. For example, if you want to run it on the German dataset, you need to set the file directories to `German/rs.npy` and `German/gt.npy`.
 
 ## Usage
 ### Dependencies
