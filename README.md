@@ -21,7 +21,7 @@ You can reproduce the results of our method for the **Section 3.1 Comparisons wi
 python run_ours.py
 ~~~
 
-Note that the files `icpr_ours.py`, `run_ours.py` and the above three dataset folders must be in the same directory.
+Note that the files `ours.py`, `run_ours.py` and the above three dataset folders must be in the same directory.
 
 ### Suggestions
 To improve efficiency, we have used the `ProcessPoolExecutor` class to achieve CPU multiprocessing. If you encounter any errors related to this, you can resolve them by adding the parameter `max_workers` to the line of code `with ProcessPoolExecutor() as executor:` and setting its value to less than the number of CPU cores on your machine.
