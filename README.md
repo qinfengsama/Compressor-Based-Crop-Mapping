@@ -28,6 +28,5 @@ To improve efficiency, we have used the `ProcessPoolExecutor` class to achieve C
 
 ## Acknowledgement
 
-All the experiment datasets are public, and we obtain them from the following links:
-- [pastis-benchmark](https://github.com/VSainteuf/pastis-benchmark)
+All the experiment datasets are public, and we obtain them from the following links: [pastis-benchmark](https://github.com/VSainteuf/pastis-benchmark)
 
