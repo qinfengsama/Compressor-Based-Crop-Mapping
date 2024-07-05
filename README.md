@@ -6,7 +6,7 @@ Since the dataset is too large, you can download the data we use from the follow
 
 Once you have downloaded the data in `rs.npy` format and the ground truth in `gt.npy`, please place them in the `dataset_name/` path, where `dataset_name` can be `Pastis`, `German` and `France` ('France' refers to the 'T31TFM-1618 dataset' mentioned in the paper).
 
-## Usage
+## Our Method
 ### Dependencies
 ~~~
 pip install pandas
@@ -14,7 +14,7 @@ pip install tqdm
 pip install openpyxl
 ~~~
 
-### Our Method
+### Usage
 You can reproduce the results of our method for the **Section 3.1 Comparisons with Deep Learning Models**, **Section 3.2 Few-Shot Learning** and **Section 4 Analyses** by executing the following command line:
 
 ~~~
