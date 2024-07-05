@@ -13,25 +13,19 @@ pip install pandas
 pip install tqdm
 pip install openpyxl
 ~~~
-### Ours
-As an example, use the following command to run our method on four parcel.
-~~~
-cd model/
 
-python ours_admin.py
+### Our Method
+You can reproduce the results of our method for the **Section 3.1 Comparisons with Deep Learning Models** and **Section 3.2 Few-Shot Learning** by executing the following command line:
+
+~~~
+python run_ours.py
 ~~~
 
-### Deep learning models
-#### TempCNN, LSTM and InceptionTime
+To reproduce the results in **Section 4 Analyses**, execute the following command line:
 ~~~
-cd model/TempCNN_LSTM_InceptionTime/
+python run_ours_analysis.py
+~~~
 
-python tempcnn.py \
---areas t30uxv \
---train_num 0.2 \
---period 43 \
---model "Choose the model from TempCNN, LSTM, or InceptionTime."
-~~~
 
 ## Acknowledgement
 
