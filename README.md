@@ -23,7 +23,7 @@ python run_ours.py
 
 To reproduce the results in **Section 4 Analyses**, execute the following command line:
 ~~~
-python run_ours_analysis.py
+python run_ours_analyses.py
 ~~~
 
 
