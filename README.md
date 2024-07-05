@@ -1,7 +1,8 @@
 # low-resource crop classification from multi-spectral time series using lossless compressors
 
 ## Dataset
-Since the dataset is too large, you can download the data we use from the following links of baiduyun [Dataset](https://pan.baidu.com/s/1zYGEa1OOLbVkexjC1FAwSQ?pwd=4dbe) (access code: 4dbe)
+Since the dataset is too large, you can download the data we use from the following links of google drive:
+[Dataset](https://drive.google.com/drive/folders/1eMuwGf54EcDpi8Ed8mXVb0F9FnbxH5up?usp=sharing)
 
 ## Usage
 ### Dependencies
