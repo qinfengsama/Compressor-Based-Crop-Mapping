@@ -15,17 +15,13 @@ pip install openpyxl
 ~~~
 
 ### Our Method
-You can reproduce the results of our method for the **Section 3.1 Comparisons with Deep Learning Models** and **Section 3.2 Few-Shot Learning** by executing the following command line:
+You can reproduce the results of our method for the **Section 3.1 Comparisons with Deep Learning Models**, **Section 3.2 Few-Shot Learning** and **Section 4 Analyses** by executing the following command line:
 
 ~~~
 python run_ours.py
 ~~~
 
-To reproduce the results in **Section 4 Analyses**, execute the following command line:
-~~~
-python run_ours_analyses.py
-~~~
-
+Note that the files `icpr_ours.py`, `run_ours.py` and the above three dataset folders must be in the same directory.
 
 ## Acknowledgement
 
