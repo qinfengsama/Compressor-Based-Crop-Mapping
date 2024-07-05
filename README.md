@@ -1,4 +1,4 @@
-# low-resource crop classification from multi-spectral time series using lossless compressors
+# Low-Resource Crop Classification from Multi-Spectral Time Series Using Lossless Compressors
 
 ## Dataset
 Since the dataset is too large, you can download the data we use from the following links of google drive:
